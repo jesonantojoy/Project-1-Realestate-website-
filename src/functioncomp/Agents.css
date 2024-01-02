@@ -1,0 +1,31 @@
+.Text1>h1{
+    margin-top:3%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.Text1>h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#6c7a89;
+    padding:30px;
+    text-align: center;
+}
+.Text1>p{
+    padding:20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slides{
+
+    border-top:1px solid gray;
+ display: flex;
+ justify-content: center;
+
+    margin-top:10px;
+}
+ .main{
+    margin-top:10px;
+    border-radius:auto;
+ }

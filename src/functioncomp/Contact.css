@@ -1,0 +1,177 @@
+.email{
+    background-color:purple;
+    box-shadow:black;
+    height:300px;
+}
+
+.qoute{
+    margin-top: 3%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color:white;
+}
+.email>p{
+    margin-top: 3%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color:white;
+}
+
+.email>input{
+    padding: 20px;
+   padding-left: 100px;
+    margin-top: 50px;
+    margin-left:600px;
+    height:48px;
+    border-color:black;
+    
+}
+
+button{
+    padding: 20px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 0px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    margin-left:10px;
+    margin-top:10px;
+    :hover {
+        box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+        transform: translateY(-2px);
+    }
+    :active{
+        box-shadow: inset 0px 3px 7px #3c4fe0;
+        transform: translateY(2px);
+    }
+    
+}
+
+.center{
+    height:200px;
+    background-image:url(https://timelinecovers.pro/facebook-cover/download/real-estate-skyscrapers-facebook-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center>h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:3%;
+
+}
+
+ .row1{
+    margin-top:5%;
+    margin-left:15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+ }
+ h4{
+   
+   font-weight: 700;
+   font-size:25px;
+   padding:20px;
+ }
+
+a{
+padding: 20px;
+
+}
+.row2{
+    margin-top:-26%;
+    margin-left:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.row3{
+    margin-top:-25%;
+    margin-left:40%;
+    display: flex;
+    flex-direction: column;
+}
+.row3>a{
+ color: grey;
+ font-size:10px;
+}
+.row3>h6{
+    font-weight: 700;
+   font-size: 14px;
+   padding:20px;
+}
+
+.row4{
+    margin-top:-22%;
+    margin-left:80%;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    font-size:15px;
+    padding:20px;
+}
+.container7 {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    background-color: blue;
+    justify-items: center;
+    height: 30px;
+    margin-top:50px;
+    
+
+
+}
+
+.item1 {
+
+    padding-right: 20px;
+    color: white;
+    font-size: 18px;
+    margin-left: 119px;
+}
+
+.item2 {
+
+    padding-right: 20px;
+    color: white;
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+
+.item3 {
+
+    padding-right: 20px;
+    color: white;
+    font-size: 18px;
+    margin-left:660px;
+    padding: 7px;
+    
+}
