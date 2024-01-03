@@ -9,16 +9,8 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 
-
-
-
 export default function Home() {
-
- 
-
-  
-
-  return (
+ return (
     <div>
     <div className='container1'>
       <div className='item1'><FontAwesomeIcon icon={faEnvelope} /> <span>jesonantojoy@gmail.com</span></div>
