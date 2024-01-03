@@ -103,9 +103,9 @@ console.log(data)
 
       </div>
       <div className='container7'>
-      <div className='item1'> <span>PRIVACY POLICY |</span></div>
-      <div className='item2'> <span>TERM & CONDITION</span></div>
-      <div className='item3'><FontAwesomeIcon icon={faGooglePlus} />  <FontAwesomeIcon icon={faPinterestP} />  <FontAwesomeIcon icon={faTwitter}/>  <FontAwesomeIcon icon={faFacebook} />  <FontAwesomeIcon icon={faBasketball} />  </div>
+      <div className='item4'> <span>PRIVACY POLICY |</span></div>
+      <div className='item5'> <span>TERM & CONDITION</span></div>
+      <div className='item6'><FontAwesomeIcon icon={faGooglePlus} />  <FontAwesomeIcon icon={faPinterestP} />  <FontAwesomeIcon icon={faTwitter}/>  <FontAwesomeIcon icon={faFacebook} />  <FontAwesomeIcon icon={faBasketball} />  </div>
      </div>
       </section>
       
