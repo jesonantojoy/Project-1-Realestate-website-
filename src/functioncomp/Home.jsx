@@ -13,9 +13,12 @@ export default function Home() {
  return (
     <div>
     <div className='container1'>
-      <div className='item1'><FontAwesomeIcon icon={faEnvelope} /> <span>jesonantojoy@gmail.com</span></div>
-      <div className='item2'><FontAwesomeIcon icon={faPhoneVolume} />   <span>9566628303</span></div>
-      <div className='item3'><FontAwesomeIcon icon={faGooglePlus} />  <FontAwesomeIcon icon={faPinterestP} />  <FontAwesomeIcon icon={faTwitter}/>  <FontAwesomeIcon icon={faFacebook} />  <FontAwesomeIcon icon={faBasketball} />  </div>
+      <>
+      <div className='item1'> <span>jesonantojoy@gmail.com</span></div>
+      <div className='item2'>  <span>9566628303</span></div>
+     
+      {/* <div className='item3'><FontAwesomeIcon icon={faGooglePlus} />  <FontAwesomeIcon icon={faPinterestP} />  <FontAwesomeIcon icon={faTwitter}/>  <FontAwesomeIcon icon={faFacebook} />  <FontAwesomeIcon icon={faBasketball} />  </div> */}
+      </>
      </div>
      <div className='navbar'> 
      <h1 className='logo'>JK Real Estate</h1>
