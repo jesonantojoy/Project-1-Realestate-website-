@@ -14,8 +14,8 @@ export default function Home() {
     <div>
     <div className='container1'>
       <>
-      <div className='item1'> <span>jesonantojoy@gmail.com</span></div>
-      <div className='item2'>  <span>9566628303</span></div>
+      <div className=''> <span>jesonantojoy@gmail.com</span></div>
+      <div className=''>  <span>9566628303</span></div>
      
       {/* <div className='item3'><FontAwesomeIcon icon={faGooglePlus} />  <FontAwesomeIcon icon={faPinterestP} />  <FontAwesomeIcon icon={faTwitter}/>  <FontAwesomeIcon icon={faFacebook} />  <FontAwesomeIcon icon={faBasketball} />  </div> */}
       </>
