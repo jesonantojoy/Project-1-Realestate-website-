@@ -4,12 +4,32 @@
     height:300px;
 }
 
+@media(max-width:600px){
+    
+    .email{
+        background-color:purple;
+        box-shadow:black;
+        height:300px;
+    }
+}
+
 .qoute{
     margin-top: 3%;
     text-align: center;
     font-weight: bolder;
     font-size: 50px;
     color:white;
+}
+
+@media(max-width:600px){
+    
+    .qoute{
+        margin-top: 3%;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 35px;
+        color:white;
+    }
 }
 .email>p{
     margin-top: 3%;
@@ -20,13 +40,24 @@
 }
 
 .email>input{
-    padding: 20px;
-   padding-left: 100px;
-    margin-top: 50px;
-    margin-left:600px;
+   padding-left: 76px;
+    margin-top: 15px;
+    margin-left:620px;
     height:48px;
     border-color:black;
     
+}
+
+@media(max-width:600px){
+    
+    .email>input{
+        padding-left: 76px;
+         margin-top: 15px;
+         margin-left:100px;
+         height:48px;
+         border-color:black;
+         
+     }
 }
 
 button{
@@ -41,12 +72,12 @@ button{
     padding: 0 32px;
     border-radius: 0px;
     color: #fff;
-    height: 48px;
+    height: 43px;
     font-size: 18px;
     text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
     transition: box-shadow 0.15s ease,transform 0.15s ease;
     margin-left:10px;
-    margin-top:10px;
+    margin-top:50px;
     :hover {
         box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
         transform: translateY(-2px);
@@ -57,12 +88,52 @@ button{
     }
     
 }
+@media(max-width:600px){
+    button{
+    padding: 20px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 0px;
+    color: #fff;
+    height: 43px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    margin-left:148px;
+    margin-top:18px;
+    :hover {
+        box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+        transform: translateY(-2px);
+    }
+    :active{
+        box-shadow: inset 0px 3px 7px #3c4fe0;
+        transform: translateY(2px);
+    }
+    
+}
+}
 
 .center{
-    height:200px;
+    height:300px;
     background-image:url(https://timelinecovers.pro/facebook-cover/download/real-estate-skyscrapers-facebook-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media(max-width:600px){
+    
+    .center{
+        height:150px;
+        background-image:url(https://timelinecovers.pro/facebook-cover/download/real-estate-skyscrapers-facebook-cover.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 .center>h1{
@@ -77,63 +148,77 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top:3%;
+    margin-top:70px;
 
 }
 
- .row1{
-    margin-top:5%;
-    margin-left:15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+@media(max-width:600px){
     
-
- }
- h4{
-   
-   font-weight: 700;
-   font-size:25px;
-   padding:20px;
- }
-
-a{
-padding: 20px;
-
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top:35px;
+    
+    }
 }
-.row2{
-    margin-top:-26%;
-    margin-left:20%;
+
+ 
+
+.container10{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: baseline;
+    margin-top:100px;
+
 }
 
-.row3{
-    margin-top:-25%;
-    margin-left:40%;
-    display: flex;
+@media(max-width:600px){
+    
+    .container10{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: baseline;
+        margin-top:100px;
+        gap:30px;
+    
+    }
+}
+.row1,.row2,.row3,.row4{
+    display:flex;
     flex-direction: column;
+
+    
 }
-.row3>a{
- color: grey;
- font-size:10px;
-}
-.row3>h6{
-    font-weight: 700;
-   font-size: 14px;
-   padding:20px;
+h4{
+    font-size:20px;
+    padding-bottom:30px;
 }
 
-.row4{
-    margin-top:-22%;
-    margin-left:80%;
-    display: flex;
-    flex-direction: column;
+
+@media(max-width:600px){
+    
+    h4{
+        font-size:15px;
+        padding-bottom:30px;
+    
+    }
 }
-li{
-    font-size:15px;
-    padding:20px;
+
+
+a,li,h6{
+    font-size:10px;
+    padding-top:10px;
+}
+
+@media(max-width:600px){
+    
+    a,li,h6{
+        font-size:15px;
+        padding-top:10px;
+    }
 }
 .container7 {
 
@@ -143,10 +228,27 @@ li{
     background-color: blue;
     justify-items: center;
     height: 30px;
-    margin-top:50px;
+    margin-top:70px;
     
 
 
+}
+
+@media(max-width:600px){
+    
+    .container7 {
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        background-color: blue;
+        justify-items: center;
+        height: 30px;
+        margin-top:70px;
+        
+    
+    
+    }
 }
 
 .item4 {
@@ -156,6 +258,18 @@ li{
     font-size: 18px;
     margin-left: 119px;
 }
+@media(max-width:600px){
+    
+    .item4 {
+
+        padding-right: 20px;
+        color: white;
+        font-size: 12px;
+        margin-left:5px;
+        
+    }
+}
+
 
 .item5 {
 
@@ -165,13 +279,35 @@ li{
     margin-left: 0px;
 }
 
+@media(max-width:600px){
+    
+    .item5 {
+
+        padding-right: 20px;
+        color: white;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+}
 
 .item6 {
 
-    padding-right: 20px;
     color: white;
     font-size: 18px;
     margin-left:660px;
     padding: 7px;
     
+}
+
+@media(max-width:600px){
+    
+    .item6 {
+
+        color: white;
+        font-size: 12px;
+        margin-left:300px;
+        margin-top:-20px;
+        padding: 0px;
+        
+    }
 }
