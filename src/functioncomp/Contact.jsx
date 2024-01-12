@@ -68,13 +68,14 @@ console.log(data)
         </Link>
   </ul>
       </div>
-      <div>
+      <div className='container10'>
       <div className='row1'>
         <a><h4>ABOUT</h4></a>
         <a>ABOUT STUDIO</a>
         <a>JOBS</a>
         <a>TEAM</a>
         <a>SECURITY</a>
+        </div>
         <div className='row2'>
         <a><h4>INFORMATION</h4></a>
         <a>CUSTOMER SERVICE</a>
@@ -96,11 +97,7 @@ console.log(data)
           <li>www.studio.theme.com</li>
           <li>9566628303</li>
        </ul>
-        </div>
-        </div>
       </div>
-      <div>
-
       </div>
       <div className='container7'>
       <div className='item4'> <span>PRIVACY POLICY |</span></div>
