@@ -81,6 +81,7 @@
     animation-name:about;
     transition-duration:1s;
     transition:1s;
+
 }
 @media(max-width:600px){
 
