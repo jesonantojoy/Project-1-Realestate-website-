@@ -2,6 +2,7 @@
     background-color:purple;
     box-shadow:black;
     height:300px;
+
 }
 
 @media(max-width:700px){
@@ -10,6 +11,7 @@
         background-color:purple;
         box-shadow:black;
         height:300px;
+        width:624px;
     }
 }
 
@@ -183,6 +185,7 @@ button{
         justify-content:space-around;
         align-items: baseline;
         margin-top:25px;
+        width:624px;
         gap:30px;
     
     }
@@ -245,6 +248,7 @@ a,li,h6{
         background-color:green;
         justify-items: center;
         height: 30px;
+        width:624px;
         margin-top:30px;
         
     
