@@ -34,7 +34,7 @@ export default function Home() {
         <li>HOME</li>
         </Link>
 
-        <Link to="me" className='me' onClick={close} spy={true} offset={-100} smooth={true}>
+        <Link to="About" className='About' onClick={close} spy={true} offset={-100} smooth={true}>
         <li>ABOUT</li>
         </Link>
 
