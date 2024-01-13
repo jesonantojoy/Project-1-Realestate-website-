@@ -46,7 +46,6 @@
 .c {
 
     display:flex;
-    justify-content:space-between;
     gap:10px;
     color: white;
     font-size: 18px;
