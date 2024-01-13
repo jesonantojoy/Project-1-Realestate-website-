@@ -3,7 +3,7 @@ import "../functioncomp/About.css"
 
 export default function About() {
   return (
-    <section id='About'>
+    <section id='me'>
       <div className='container'>
         <h1>The engineer is the key figure in the material progress of the world. It is his engineering that makes a reality of the potential value of science by translating scientific knowledge into tools, resources, energy, and labor to bring them into the service of man.</h1>
         <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.</p>
