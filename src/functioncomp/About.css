@@ -8,11 +8,11 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     .container{
         display: flex;
         flex-direction: column;
-        width:300px;
+        width:312px;
         height:800px;
         margin-left:3%;
         margin-top:7%;
@@ -26,7 +26,7 @@
     margin-top:100px;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
 
    
     .container>h1{
@@ -41,14 +41,14 @@
     color: grey;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
 
    
     .container>p{
        
         font-weight: 400;
         color: grey;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
@@ -58,7 +58,7 @@
    padding: 50px;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
 
    
     .container>h2{
@@ -83,17 +83,17 @@
     transition:1s;
 
 }
-@media(max-width:600px){
+@media(max-width:700px){
 
    
     .box>img{
         display:flex;
         flex-direction: row;
         align-items: end;
-        width:50px;
-        height:100px;
+        width:275px;
+        height:160px;
         margin-left:322px;
-        margin-top:-216px;
+        margin-top:-243px;
         padding:0px;
         animation-name:about;
         transition-duration:1s;
