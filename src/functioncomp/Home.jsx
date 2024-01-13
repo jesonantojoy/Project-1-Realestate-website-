@@ -13,9 +13,19 @@ export default function Home() {
  return (
     <div>
     <div className='container1'>
-      <div className='A'><FontAwesomeIcon icon={faEnvelope} /> <span>jesonantojoy@gmail.com</span></div>
-      <div className='b'><FontAwesomeIcon icon={faPhoneVolume} />   <span>9566628303</span></div>
-      <div className='c'><FontAwesomeIcon icon={faGooglePlus} />  <FontAwesomeIcon icon={faPinterestP} />  <FontAwesomeIcon icon={faTwitter}/>  <FontAwesomeIcon icon={faFacebook} />  <FontAwesomeIcon icon={faBasketball} />  </div>
+      <div className='p1'>
+      <div className='A'><FontAwesomeIcon icon={faEnvelope} /> <span>jesonantojoy@gmail.com</span>  ||  <FontAwesomeIcon icon={faPhoneVolume} /> <span>9566628303</span></div>
+
+      </div>
+      <div className='p2'>
+      <div className='c'>
+      <div><FontAwesomeIcon icon={faGooglePlus} /></div>
+      <div><FontAwesomeIcon icon={faPinterestP} /></div>
+      <div><FontAwesomeIcon icon={faTwitter}/></div>
+     <div><FontAwesomeIcon icon={faFacebook} /></div> 
+      <div><FontAwesomeIcon icon={faBasketball} /></div> 
+      </div>
+      </div>
      </div>
      <div className='navbar'> 
      <h1 className='logo'>JK Real Estate</h1>
@@ -24,7 +34,7 @@ export default function Home() {
         <li>HOME</li>
         </Link>
 
-        <Link to="About" className='About' onClick={close} spy={true} offset={-100} smooth={true}>
+        <Link to="me" className='me' onClick={close} spy={true} offset={-100} smooth={true}>
         <li>ABOUT</li>
         </Link>
 
