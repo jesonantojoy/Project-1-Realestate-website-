@@ -100,9 +100,15 @@ console.log(data)
       </div>
       </div>
       <div className='container7'>
-      <div className='item4'> <span>PRIVACY POLICY |</span></div>
+      <div className='item4'> <span>PRIVACY POLICY||</span></div>
       <div className='item5'> <span>TERM & CONDITION</span></div>
-      <div className='item6'><FontAwesomeIcon icon={faGooglePlus} />  <FontAwesomeIcon icon={faPinterestP} />  <FontAwesomeIcon icon={faTwitter}/>  <FontAwesomeIcon icon={faFacebook} />  <FontAwesomeIcon icon={faBasketball} />  </div>
+      <div className='item6'>
+      <div><FontAwesomeIcon icon={faGooglePlus} /></div>
+      <div><FontAwesomeIcon icon={faPinterestP} /></div>
+      <div><FontAwesomeIcon icon={faTwitter}/></div>
+     <div><FontAwesomeIcon icon={faFacebook} /></div> 
+      <div><FontAwesomeIcon icon={faBasketball} /></div>  
+      </div>
      </div>
       </section>
       
