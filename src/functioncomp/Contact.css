@@ -4,7 +4,7 @@
     height:300px;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     .email{
         background-color:purple;
@@ -21,7 +21,7 @@
     color:white;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     .qoute{
         margin-top: 3%;
@@ -48,12 +48,12 @@
     
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     .email>input{
         padding-left: 76px;
          margin-top: 15px;
-         margin-left:100px;
+         margin-left:190px;
          height:48px;
          border-color:black;
          
@@ -88,7 +88,7 @@ button{
     }
     
 }
-@media(max-width:600px){
+@media(max-width:700px){
     button{
     padding: 20px;
     display: inline-block;
@@ -105,7 +105,7 @@ button{
     font-size: 18px;
     text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
     transition: box-shadow 0.15s ease,transform 0.15s ease;
-    margin-left:148px;
+    margin-left:245px;
     margin-top:18px;
     :hover {
         box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
@@ -126,7 +126,7 @@ button{
     background-size: cover;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     .center{
         height:150px;
@@ -149,10 +149,11 @@ button{
     flex-direction: row;
     justify-content: center;
     margin-top:70px;
+    list-style:none;
 
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     .links{
         display: flex;
@@ -174,14 +175,14 @@ button{
 
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     .container10{
         display: flex;
         flex-direction:row;
         justify-content:space-around;
         align-items: baseline;
-        margin-top:100px;
+        margin-top:25px;
         gap:30px;
     
     }
@@ -198,7 +199,7 @@ h4{
 }
 
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     h4{
         font-size:15px;
@@ -209,11 +210,11 @@ h4{
 
 
 a,li,h6{
-    font-size:10px;
+    font-size:20px;
     padding-top:10px;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     a,li,h6{
         font-size:15px;
@@ -234,17 +235,17 @@ a,li,h6{
 
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     .container7 {
 
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
-        background-color: blue;
+        background-color:green;
         justify-items: center;
         height: 30px;
-        margin-top:70px;
+        margin-top:30px;
         
     
     
@@ -258,7 +259,7 @@ a,li,h6{
     font-size: 18px;
     margin-left: 119px;
 }
-@media(max-width:600px){
+@media(max-width:700px){
     
     .item4 {
 
@@ -279,7 +280,7 @@ a,li,h6{
     margin-left: 0px;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     .item5 {
 
@@ -291,7 +292,8 @@ a,li,h6{
 }
 
 .item6 {
-
+    display: flex;
+    gap:10px;
     color: white;
     font-size: 18px;
     margin-left:660px;
@@ -299,13 +301,14 @@ a,li,h6{
     
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     
     .item6 {
-
+        display: flex;
+        gap:10px;
         color: white;
         font-size: 12px;
-        margin-left:300px;
+        margin-left:450px;
         margin-top:-20px;
         padding: 0px;
         
