@@ -11,7 +11,7 @@ import 'react-slideshow-image/dist/styles.css';
 
 export default function Home() {
  return (
-    <div>
+    <div id='whole'>
     <div className='container1'>
       <div className='p1'>
       <div className='A'><FontAwesomeIcon icon={faEnvelope} /> <span>jesonantojoy@gmail.com</span>  ||  <FontAwesomeIcon icon={faPhoneVolume} /> <span>9566628303</span></div>
