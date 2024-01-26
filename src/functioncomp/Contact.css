@@ -1,3 +1,10 @@
+@media(max-width:700px){
+    
+    #Contact{
+       width: 410px;
+    }
+}
+
 .email{
     background-color:purple;
     box-shadow:black;
@@ -10,8 +17,8 @@
     .email{
         background-color:purple;
         box-shadow:black;
-        height:300px;
-        width:411dp;
+        height:250px;
+        width:410px;
     }
 }
 
@@ -26,10 +33,10 @@
 @media(max-width:700px){
     
     .qoute{
-        margin-top: 3%;
+        margin-top:-15%;
         text-align: center;
         font-weight: bolder;
-        font-size: 35px;
+        font-size: 25px;
         color:white;
     }
 }
@@ -37,7 +44,7 @@
     margin-top: 3%;
     text-align: center;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 15px;
     color:white;
 }
 
@@ -55,7 +62,7 @@
     .email>input{
         padding-left: 76px;
          margin-top: 15px;
-         margin-left:190px;
+         margin-left:75px;
          height:48px;
          border-color:black;
          
@@ -107,7 +114,7 @@ button{
     font-size: 18px;
     text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
     transition: box-shadow 0.15s ease,transform 0.15s ease;
-    margin-left:245px;
+    margin-left:140px;
     margin-top:18px;
     :hover {
         box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
@@ -132,6 +139,7 @@ button{
     
     .center{
         height:150px;
+        width:410px;
         background-image:url(https://timelinecovers.pro/facebook-cover/download/real-estate-skyscrapers-facebook-cover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -162,6 +170,7 @@ button{
         flex-direction: row;
         justify-content: center;
         margin-top:35px;
+
     
     }
 }
@@ -185,8 +194,10 @@ button{
         justify-content:space-around;
         align-items: baseline;
         margin-top:25px;
-        width:624px;
-        gap:30px;
+        width:410px;
+        gap:20px;
+        margin-left:30px;
+    
     
     }
 }
@@ -248,7 +259,7 @@ a,li,h6{
         background-color:green;
         justify-items: center;
         height: 30px;
-        width:411dp;
+        width:410px;
         margin-top:30px;
         
     
@@ -269,7 +280,7 @@ a,li,h6{
 
         padding-right: 20px;
         color: white;
-        font-size: 12px;
+        font-size: 10px;
         margin-left:5px;
         
     }
@@ -290,8 +301,8 @@ a,li,h6{
 
         padding-right: 20px;
         color: white;
-        font-size: 12px;
-        margin-left: 0px;
+        font-size: 10px;
+        margin-left:-17px;
     }
 }
 
@@ -312,8 +323,8 @@ a,li,h6{
         gap:10px;
         color: white;
         font-size: 12px;
-        margin-left:450px;
-        margin-top:-20px;
+        margin-left:20px;
+        margin-top:10px;
         padding: 0px;
         
     }
