@@ -1,3 +1,11 @@
+
+@media(max-width:700px){
+    #Properties{
+        width:410px;
+    }
+
+}
+
 .images{
     border:1px solid whitesmoke;
     display:flex;
@@ -71,7 +79,16 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
-
+@media(max-width:700px){
+    
+    .Container{
+        display: flex;
+        margin-top: 2%;
+        margin-left: 5%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
 .box2{
       padding:1px;
       margin:10px;
