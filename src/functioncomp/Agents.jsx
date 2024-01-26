@@ -22,7 +22,7 @@ export default function Agents() {
       <div className='slides'>
     <div className='main'>
       <SimpleImageSlider
-        width={400}
+        width={300}
         height={500}
         images={images}
         showBullets={true}
