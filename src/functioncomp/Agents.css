@@ -1,5 +1,18 @@
+@media(max-width:700px){
+
+    #Agents{
+        width:410px;
+    }
+    }
+@media(max-width:700px){
+
+    .Text1{
+        width:410px;
+    }
+    }
+
 .Text1>h1{
-    margin-top:3%;
+    margin-top:65px;
     text-align: center;
     font-weight: bolder;
     font-size: 50px;
@@ -8,7 +21,7 @@
 @media(max-width:700px){
 
 .Text1>h1{
-        margin-top:-530px;
+        margin-top:-405px;
         text-align: center;
         font-weight: bolder;
         font-size: 25px;
@@ -55,10 +68,29 @@
  justify-content: center;
 
     margin-top:10px;
+    width:500px;
+
+    margin-left:500px;
 }
+
+@media(max-width:700px){
+
+    .slides{
+
+        border-top:1px solid gray;
+     display: flex;
+     justify-content: center;
+    margin-top:10px;
+     width:410px;
+     margin-left:0px;
+    }
+    }
  .main{
     margin-top:10px;
     border-radius:auto;
+
+    
+
  }
 
  @media(max-width:700px){
