@@ -83,13 +83,6 @@ console.log(data)
         <a>SUPPORT</a>
         <a>FAQ</a>
         </div>
-        <div className='row3'>
-        <h4>RECENT NEWS</h4>
-        <h6>Real estate outlook 2024: Is affordable housing finance ready for takeoff?</h6>
-        <a>Tue,  02 Jan 2024</a>
-        <h6>The Economic Times Real Estate Conclave 2024</h6>
-        <a> Fri, 23 Feb 2024</a>
-        </div>
         <div className='row4'>
           <ul>
             <h4>GET TOUCH</h4>
@@ -100,7 +93,7 @@ console.log(data)
       </div>
       </div>
       <div className='container7'>
-      <div className='item4'> <span>PRIVACY POLICY||</span></div>
+      <div className='item4'> <span>PRIVACY POLICY ||</span></div>
       <div className='item5'> <span>TERM & CONDITION</span></div>
       <div className='item6'>
       <div><FontAwesomeIcon icon={faGooglePlus} /></div>
