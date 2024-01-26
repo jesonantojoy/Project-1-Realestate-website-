@@ -12,8 +12,6 @@ export default function Blog() {
       <h3>Real estate is an imperishable asset, ever increasing in value. It is the most solid security that human ingenuity has devised.</h3></div>
     <div className='box3'>  <img src='https://media.istockphoto.com/id/1869716870/photo/yellow-armchair-in-a-room.webp?s=170667a&w=0&k=20&c=HyoWazls1oRgaOH3wtfkOj_MaeZu2-_jGm_tKsvGA1M='></img>
     <h3>A house is made of bricks and beams. A home is made of hopes and dreams.</h3></div>
-     <div className='box3'> <img src='https://media.istockphoto.com/id/470802318/photo/house-cube-day.webp?s=170667a&w=0&k=20&c=hiRyiQekW82HU6G636uQFRV7mC1ytQU7zeIt5Md2mJU='></img>
-     <h3>Location, location, location – the three most important factors in determining the desirability of a property.</h3></div>
     </div>
     </section>
   )
