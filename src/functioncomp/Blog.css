@@ -3,13 +3,12 @@
      flex-direction: row;
      justify-content:space-between;
      flex-wrap: nowrap;
-     align-items: stretch;
      padding:20px;
-     gap:20px;
+     gap:40px;
      align-items: center;
-    width:411dp;
+    width:600px;
     height:500px;
-    margin-left:150px;
+    margin-left:200px;
 }
 
 @media(max-width:700px){
@@ -23,9 +22,9 @@
         padding: 5px;
         gap:5px;
         align-items: center;
-       width:250px;
+       width:410px;
        height:250px;
-       margin-left:50px;
+       margin-left:-2px;
    }
 }
 
